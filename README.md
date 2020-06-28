@@ -5,7 +5,7 @@ An IoT ecosystem for development and demonstration of  end to end flow from devi
 
 ## links for reference
 1. https://docs.docker.com/engine/install/ubuntu/
-2. curl -fsSL https://test.docker.com -o test-docker.sh
+2. curl -fsSL https://test.docker.com -o test-docker.sh </br>
 sudo sh test-docker.sh
 3. To check installation: docker run docker/whalesay cowsay Hello-Aish!!
 4. https://www.youtube.com/watch?v=zJ6WbK9zFpI&t=2396s
