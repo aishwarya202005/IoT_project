@@ -10,3 +10,4 @@ sudo sh test-docker.sh
 3. To check installation: docker run docker/whalesay cowsay Hello-Aish!!
 4. https://www.youtube.com/watch?v=zJ6WbK9zFpI&t=2396s
 5. for demo, flask- https://docker-curriculum.com/
+6. Recording of discussions: https://drive.google.com/drive/folders/1wA3Proo9jSZv5AF9CZjMaym-a87PMsNr
