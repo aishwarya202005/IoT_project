@@ -3,7 +3,6 @@ pull zip file from github then go to the folder IoT-over-MQTT
 CMD To view docker-compose file- 
 $ nano docker-compose.yml
 
-
 docker-compose file contains definition of all the services that we want to run
 
 # services are:
@@ -42,7 +41,7 @@ If STATUS is  200 OK means successful.
 Similarly repeat steps for Context broker health check.
 
 
-## Connecting IoT Devices
+# Connecting IoT Devices
 The IoT Agent is middleware between devices and the context broker. 
 So,to create context data entities with unique IDs, 
 provision a service 
