@@ -8,10 +8,10 @@ import json #To convert Python string into json format
 import time
 import psutil #Library for system monitoring
 #Variable configuration of MQTT Broker
-mqtt_broker_address = "industrial.api.ubidots.com"
+mqtt_broker_address = ""
 mqtt_broker_port = 1883
 mqtt_keepalive = 60
-username = "BBFF-NSSvtWReGIXTocFsjWHcHGDlqsPAsE"
+username = ""
 password = ""
 topic = "/v1.6/devices"
 device_label = "t-rh"
