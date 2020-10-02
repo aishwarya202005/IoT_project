@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# This pyhton code is to read WINDOWS battery kevel and send it to UBIDOTS IOT PLATFORM
+
 
 
 
@@ -17,7 +17,7 @@ topic = "/v1.6/devices"
 device_label = "t-rh"
 
 class surface:
-    '''A class to send the Battery Level from Sahil Saini Surface Device'''
+    '''A class to send the Battery Level'''
 
     def battery_level(self):
         '''A function to get the battery level'''
