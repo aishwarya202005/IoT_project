@@ -7,6 +7,8 @@ import paho.mqtt.client as mqtt #Python library to publish a message to the topi
 import json #To convert Python string into json format
 import time
 import psutil #Library for system monitoring
+from converter import JSON_to_UL #for conversion from JSON to ultralight
+
 #Variable configuration of MQTT Broker
 mqtt_broker_address = "127.0.0.1"
 mqtt_broker_port = 1883
@@ -40,7 +42,8 @@ if __name__ == "__main__":
             batteryObj = {}
             batteryObj['t'] = battery_value
             jsonFormat_battery = json.dumps(batteryObj)
-            ultralight_format = "b|797"
+            ultralight_format = JSON_to_UL(jsonFormat_battery)
+            print "\nAfter conversion, ultralight battery: ",ultralight_format
             #print(jsonFormat_battery)
             client.publish(topic_battery,ultralight_format)
             time.sleep(30)
